@@ -38,7 +38,7 @@ def willingnessCalculation(A2,A3,A8):
     contradiction = ContradictionFlag(q2q3gap,q3q8gap,q2q8gap)
     q2color,q3color,q8color = displayColor(MA2,MA3,MA8)
     list_all = [MA2,MA3,MA8,premutation,fp_rule,ra_rule,minimun,fincrp,q2q3gap,q3q8gap,q2q8gap,contradiction,q2color,q3color,q8color]
-    print list_all
+    #print list_all
     dict = {}
     dict['Q2'] = MA2
     dict['Q3'] = MA3
@@ -110,7 +110,7 @@ def capacityCalculation(A4,A6,A7):
     contradiction = ContradictionFlag(q4q6gap,q6q7gap,q4q7gap)
     q4color,q6color,q7color = displayColor(MA4,MA6,MA7)
     list_all = [MA4,MA6,MA7,premutation,fp_rule,ra_rule,minimun,finalcrp,q4q6gap,q6q7gap,q4q7gap,contradiction,q4color,q6color,q7color]
-    print list_all
+    #print list_all
     dict = {}
     dict['Q4'] = MA4
     dict['Q6'] = MA6
